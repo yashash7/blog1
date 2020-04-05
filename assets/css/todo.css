@@ -1,0 +1,30 @@
+body{
+background-color:gray;
+background-size:100%;
+padding:25px;
+}
+h1{
+text-align:center;
+color:navy;
+}
+table,th,td{
+border:1px solid green;
+text-align:center;
+color:white;
+}
+a{
+text-decoration:none;
+}
+th{
+    color:firebrick;
+}
+p{
+    color:yellow;
+    font-size:10px;
+}
+@media screen and (max-width: 700px){
+    .main, table, th, td, body{
+        width:100%;
+        padding: 0%;
+    }
+}

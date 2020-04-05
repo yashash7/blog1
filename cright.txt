@@ -1,0 +1,32 @@
+<div class="cright">
+        <div class="card">
+            <h2>About Me</h2>
+            <p>YASHASHCHANDRA</p>
+            <a href="./assets/timeline.html" target="_blank">View Profile</a><br>
+            <a href="https://forms.gle/SzGhXreCZvemEdkW9" target="_blank" style="font-size: 16px;">Report Abuse</a>
+        </div>
+        <div class="card">
+            <h2>Popular Post</h2>
+            <i class="fa fa-hand-o-right" style="color: seagreen;"></i> <a href="https://www.bing.com/covid" target="_blank" style="font-size:20px;">COVID-19</a><br>
+            <!--<a href="#post2" target="_blank" style="font-size:25px;">post2</a><br>
+            <a href="#post3" target="_blank" style="font-size:25px;">post3</a><br>-->
+        </div>
+        <div class="card">
+            <h2>RoadMaps</h2>
+            <a href="./assets/wdrmap.html" target="_blank">Web_Development</a>
+        </div>
+        <div class="card">
+            <h2>Collection</h2>
+            <div>
+                <a href="https://drive.google.com/drive/folders/1DWDmziu_xINS__jFcBISOMb5IXAT5FEZ?usp=sharing" target="_blank"><i class="fa fa-book"style="font-size:25px;"> Books</i></a><br><br>
+                <a href="https://mega.nz/#F!WDgDkajD!buv7pHBaDJRlAzFzITPoDA" target="_blank"><i class="fa fa-youtube-play"style="font-size:25px;"> Videos</i></a><br><br>
+                <a href="https://drive.google.com/open?id=19cQXthsDS23V1erEe74NjOCQnsdIPJgo" target="_blank"><i class="fa fa-picture-o"style="font-size:25px;"> Gallery</i></a>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Follow Me</h2>
+            <a href="http://www.facebook.com/yashash.kollu.7" target="_blank"><i class="fa fa-facebook-official w3-xlarge 		w3-hover-opacity" style="color: blue;"></i></a>
+            <a href="http://www.instagram.com/der_tagtraumer_" target="_blank" style="padding-left: 10px;"><i class="fa 		fa-instagram w3-xlarge w3-hover-opacity" style="color: magenta;"></i></a>
+            <a href="http://www.twitter.com/YASHASHCHANDRA7" target="_blank" style="padding-left: 10px;"><i class="fa 		fa-twitter w3-xlarge w3-hover-opacity" style="color: #00acee;"></i></a>
+            <a href="http://www.linkedin.com/in/yashashchandrakollu-aa56bb172" target="_blank" style="padding-left: 		10px;"><i class="fa fa-linkedin w3-xlarge w3-hover-opacity" style="color: #0e76a8;"></i></a>
+        </div>

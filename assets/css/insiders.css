@@ -1,0 +1,32 @@
+body{
+    padding: 25px;
+    text-align: center;
+    background: goldenrod;
+}
+h1{
+    color: #AAA3F5;
+    font-weight: 1060;
+    font-variant: small-caps;
+    font-family: cursive;
+}
+table{
+    border: 4px solid #AAA3F5;
+    padding: 2px;
+}
+th,td{
+    border: 2px solid #AAA3F5;
+    padding:2px;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+@media screen and(max-width){
+    table,th,td,div{
+        width:100%;
+        padding:0;
+    }
+}

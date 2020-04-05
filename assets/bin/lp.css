@@ -1,0 +1,26 @@
+body{
+    background-color:grey;
+    padding: 25px;
+}
+.box{
+    border: 2px solid orange;
+    border-radius: 16px;
+    #margin: auto;
+    text-align: center;
+    padding: 20px;
+    width: 70%;
+}
+a{
+    font-size: 25px;
+    margin: auto;
+    border: 2px solid lightgreen;
+    border-radius: 7px;
+    padding: 7px;
+    text-decoration: none;
+}
+@media screen and (max-width: 800px){
+    .box,a{
+        width: 100%;
+        padding: 0;
+    }
+}
