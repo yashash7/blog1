@@ -24,7 +24,7 @@
     </div>
 <!--Content goes here-->
 
-<!--Footer->
+<!--Footer-->
     <ul class="w3-container" style="width: auto; padding-right: 25px;">
         <li style="color: whitesmoke;"> COPYRIGHT <i class="fa fa-copyright" style="color: whitesmoke; font-size: 		20px;"></i> YASHASHCHANDRA - 2020.
          <a href="feedback.html" style="padding-left: 200px;">Give-Feedback&nbsp|&nbsp</a><a href="report.html">Report-	 Abuse</a>
