@@ -13,10 +13,35 @@ table{
     border: 4px solid #AAA3F5;
     padding: 2px;
 }
+.header{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    left:0;
+    top:0;
+    width: 100%;
+    height:auto;
+    padding-left: 10px;
+    text-align: left;
+    color: blueviolet;
+}
+.footer{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    left:0;
+    bottom:0;
+    width: 100%;
+    height:auto;
+    padding-left: 10px;
+}
 th,td{
     border: 2px solid #AAA3F5;
     padding:2px;
-
+}
+ul{
+    list-style-type: none;
+}
+li{
+    font-size: 20px;
 }
 a{
     text-decoration: none;
@@ -24,8 +49,8 @@ a{
 a:hover{
     color: red;
 }
-@media screen and(max-width){
-    table,th,td,div{
+@media screen and(max-width: 800px){
+    table,th,td,div,a, ul, li{
         width:100%;
         padding:0;
     }

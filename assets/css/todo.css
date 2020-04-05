@@ -20,7 +20,7 @@ th{
 }
 p{
     color:yellow;
-    font-size:10px;
+    font-size:16px;
 }
 @media screen and (max-width: 700px){
     .main, table, th, td, body{
