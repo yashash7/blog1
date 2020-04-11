@@ -12,15 +12,19 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kalam&display=swap">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="icon" href='./css/media/icon1.png' type='image/x-icon' style="width: 25px; height: 25px; margin-bottom: 12px;">
+    <!--<script src="./js/loginform.js"></script>-->
     <title>Login-pvt</title>
 </head>
 <style>
-    #f{
-        border: 2px solid whitesmoke;
+    .formcl1{
+        border: 3px solid whitesmoke;
         border-radius: 7px;
+        width: auto;
+        height: 610px;
     }
-    #s{
-        margin-left: 52px;
+    input{
+        border-radius: 16px;
+        padding-left: 7px;
     }
 </style>
 <body style="padding-top:10px;">
@@ -32,13 +36,26 @@
         <a href="../index.html" style="float: right; margin-right: 25px;">Home</a></h2>
 </div>
 <!--Content goes here-->
-    <div class="row">
-        <div class="column" style="height: auto; width: auto; margin-top: 250px; margin-left: 520px;">
-            <form method="GET">
-                <p>UserName &nbsp;<input type="text" name="username" required="required" id="f" ></p>
-                <p>Password &nbsp;<input type="password" name="password" required="required" id="f"></p>
-                <p><input type="button" value="submit" id="s"></p>
-            </form>
+    <div class="row" style="padding-bottom: 43px;">
+        <div class="column" style="height: auto; width: 500px; margin-top: 97px;text-align: center; float: left; margin-left: 120px;">
+            <!--Login_Form-->
+            <form name="loginForm" class="formcl1" onsubmit="return login()" method="post">
+                <h1>Login</h1><p style="color: whitesmoke;">Login to see what's in for you...</p><hr style="padding-bottom: 61px;">
+                <p style="color: whitesmoke;">Username:&nbsp;&nbsp;<input type="text" name="fname" placeholder="Eg:- Mickey" required style="height: 52px;"><br>
+                    <code style="font-size: 13px;">Username can be your email-id or the user-id</code></p>
+                <p style="color: whitesmoke;">Password:&nbsp;&nbsp;<input type="password" name="password" placeholder="Enter your password" required style="height: 52px;"></p><br>
+                <p><input type="submit" value="Login" style="width: 97px;"></p>
+              </form>
+        </div>
+        <div class="column" style="height: auto; width: 500px; margin-top: 97px;text-align: center; float: right; margin-right: 120px;">
+            <!--Register_Form-->
+            <form name="registerForm" class="formcl1" onsubmit="return register()" method="post">
+                <h1>Register</h1><p style="color: whitesmoke;">Signup here if you don't have an account</p><hr style="padding-bottom: 25px;">
+                <p style="color: whitesmoke;">Firstname:&nbsp;&nbsp;<input type="text" name="fname" placeholder="Eg:- Mickey" required style="height: 52px;"></p><br>
+                <p style="color: whitesmoke;">Lastname:&nbsp;&nbsp;<input type="text" name="lname" placeholder="Eg:- Mouse" required style="height: 52px;"></p><br>
+                <p style="color: whitesmoke;">Password:&nbsp;&nbsp;<input type="password" name="password" placeholder="atleast 8 characters long" required style="height: 52px;"></p><br>
+                <P><input type="submit" value="Register" style="width: 97px;"></P>
+              </form>
         </div>
     </div>
 <!--Footer-->
@@ -52,5 +69,36 @@
         <a style="float: right; color: whitesmoke;">Follow Me- </a>
     </li>
 </ul>
+<script>
+    function login() {
+          let x = document.forms["loginForm"]["fname"].value;
+          let y = document.forms["loginForm"]["password"].value;
+          if (x == "") {
+            alert("Name must be filled out");
+            return false;
+          }
+          else if(y == "") {
+              alert("Please Enter Password");
+              return false;
+          }
+    }
+    function register() {
+        let x = document.forms["registerForm"]["fname"].value;
+        let y = document.forms["registerForm"]["lname"].value;
+        let z = document.forms["registerForm"]["password"].value;
+        if (x == "") {
+            alert("Firstname field should not be empty")
+            return false;
+        }
+        else if (y == "") {
+            alert("Lastname field should not be empty")
+            return false;
+        }
+        else if (z == "") {
+            alert("Please create a password")
+            return false;
+        }
+    }
+    </script>
 </body>
 </html>
