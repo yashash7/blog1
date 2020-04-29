@@ -1,4 +1,0 @@
-List of DOS Commands: https://en.wikipedia.org/wiki/List_of_DOS_commands
-cmd.exe: https://en.wikipedia.org/wiki/Cmd.exe
- 
-{Windows2unix copyright: Copyright © Ben Bullock 2009-2020. All rights reserved. For comments, questions, and corrections, please email Ben Bullock (benkasminbullock@gmail.com). / Privacy / Disclaimer.}

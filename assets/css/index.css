@@ -5,69 +5,98 @@ h1,h2,h3,h4,h5,h6,p{
     color:white;
 }
 body {
-    background-image: url("./media/bg1.jpg");
     font-family: 'Kalam', cursive;
-}
-a:hover{
-    color: red;
+    background: rgb(22, 22, 22);
 }
 .main {
     padding: 10px;
     font-size: 25px;
     text-align: center;
 }
-.row::after {
+.card {
+    position: relative;
+    background: rgb(22, 22, 22);
+    border-radius: 7px;
+    float: left;
+    padding: 3px;
+}
+.card::after {
     content: "";
-    display: table;
+    display: block;
     clear: both;
 }
-.column{
-    background: rgba(0,0,0,0.5);
-    float: left;
-    width: 65%;
-    height: 700px;
-    margin-top: 70px;
-    margin-left: 250px;
+
+img {
+    border-radius: 3px; 
+    height: 200px; 
+    width: 100%;  
 }
-.header{
+.header {
     position: absolute;
-    background: rgba(0,0,0,0.5);
-    left:0;
-    top:0;
+    left: 0;
+    top: 0;
+    right: 0;
     width: 100%;
-    height:auto;
+    height: 340px;
     padding-left: 10px;
-    text-align: left;
+    background: darkslategrey;
     color: blueviolet;
+    font-family: 'Special Elite', cursive;
 }
-.footer{
-    position: absolute;
-    background: rgba(0,0,0,0.5);
-    left:0;
-    bottom:0;
+.footer {
+    position: fixed;
+    background: rgb(22, 22, 22);
+    left: 0;
+    right: 0;
+    bottom: 0;
     width: 100%;
-    height:auto;
     padding-left: 10px;
+    padding-right: 10px;
 }
 a,p {
     text-decoration: none;
     color: orange;
     font-size: 20px;
 }
-ul{
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+ul {
     list-style-type: none;
 }
-li{
+li {
     font-size: 20px;
 }
-#imag{
-    border: 2px solid wheat;
+#imag {
+    border: 3px solid wheat;
     border-radius: 50%;
 }
+.clearfix {
+    overflow: auto;
+}
+#f1 {
+    float: right; 
+    margin-left: 150px;
+}
+#f2 {
+    margin-left: 20px;
+}
 @media screen and (max-width: 800px) {
-    .row, .column, iframe, .row::after, .footer, .header, body{
+    .card, iframe, .card::after, .header, body {
         width: 100%;
         padding: 0;
         margin: 0;
+    }
+    .footer {
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 0;
+        margin: 0;
+    }
+    #f2 {
+        margin-left: 7px;
     }
 }

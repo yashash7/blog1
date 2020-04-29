@@ -1,1 +1,0 @@
-<div style="padding-top: 124px;"><a href="#">React</a><a href="#" style="padding-left: 25px;">Comment</a><a href="#" style="padding-left: 25px;">Share</a>  <a href="#" style="padding-left: 25px;">Report</a></div>
