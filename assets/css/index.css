@@ -17,7 +17,6 @@ body {
     position: relative;
     background: rgb(22, 22, 22);
     border-radius: 7px;
-    float: left;
     padding: 3px;
 }
 .card::after {
@@ -37,9 +36,8 @@ img {
     top: 0;
     right: 0;
     width: 100%;
-    height: 340px;
+    height: 250px;
     padding-left: 10px;
-    background: darkslategrey;
     color: blueviolet;
     font-family: 'Special Elite', cursive;
 }
@@ -75,12 +73,43 @@ li {
 .clearfix {
     overflow: auto;
 }
+.tqhead {
+    border: 1px solid darkgray;
+    border-radius: 25px;
+    color: gray;
+    font-size: 25px;
+}
+.chead {
+    border-bottom: 2px solid lightgray;
+    border-radius: 25px;
+}
+.tqhead a {
+    color: lightcoral;
+}
 #f1 {
     float: right; 
     margin-left: 150px;
 }
 #f2 {
     margin-left: 20px;
+}
+.pagination {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-left: 610px;
+    margin-bottom: 25px;
+}
+.pagination a {
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination a.active {
+    background-color: #4CAF50;
+    color: black;
+}
+.pagination a:hover:not(.active) {
+    background-color: lightgray;
 }
 @media screen and (max-width: 800px) {
     .card, iframe, .card::after, .header, body {
