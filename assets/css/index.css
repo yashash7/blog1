@@ -18,27 +18,33 @@ body {
     background: rgb(22, 22, 22);
     border-radius: 7px;
     padding: 3px;
+    background: whitesmoke;
 }
 .card::after {
     content: "";
     display: block;
     clear: both;
 }
-
+.card:hover {
+    background: white;
+    box-shadow: 3px 3px 4px dimgray;
+}
 img {
     border-radius: 3px; 
     height: 200px; 
     width: 100%;  
 }
 .header {
+    background: rgb(23, 39, 39);
     position: absolute;
     left: 0;
     top: 0;
     right: 0;
     width: 100%;
-    height: 250px;
+    margin-top: 0;
     padding-left: 10px;
-    color: blueviolet;
+    padding-top: 7px;
+    color: forestgreen;
     font-family: 'Special Elite', cursive;
 }
 .footer {
@@ -90,7 +96,7 @@ li {
     float: right; 
     margin-left: 150px;
 }
-#f2 {
+.f2 {
     margin-left: 20px;
 }
 .pagination {
@@ -100,16 +106,19 @@ li {
     margin-bottom: 25px;
 }
 .pagination a {
-    color: white;
+    color: black;
+    background: white;
     padding: 8px 16px;
     text-decoration: none;
+    border-radius: 7px;
 }
 .pagination a.active {
     background-color: #4CAF50;
     color: black;
 }
 .pagination a:hover:not(.active) {
-    background-color: lightgray;
+    background-color: darkgray;
+    color: black;
 }
 @media screen and (max-width: 800px) {
     .card, iframe, .card::after, .header, body {
@@ -125,7 +134,7 @@ li {
         padding: 0;
         margin: 0;
     }
-    #f2 {
+    .f2 {
         margin-left: 7px;
     }
 }

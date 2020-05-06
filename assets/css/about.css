@@ -14,19 +14,16 @@ body {
     font-family: 'Special Elite', cursive;
 }
 .footer {
-    position: absolute;
-    left:0;
+    position: fixed;
+    background: rgb(22, 22, 22);
+    left: 0;
     right: 0;
-    bottom:0;
+    bottom: 0;
     width: 100%;
-    height:auto;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
-a {
-    color: goldenrod;
-    text-decoration: none;
-}
 a:hover {
     color: red;
     text-decoration: none;
@@ -60,6 +57,12 @@ ul {
 li {
     font-size: 20px;
 }
-#f2 {
+.f2 {
     margin-left: 20px;
+}
+a,p {
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+    vertical-align: middle;
 }
