@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing: border-box;
 }
 h1,h2,h3,h4,h5,h6,p{
@@ -6,50 +6,70 @@ h1,h2,h3,h4,h5,h6,p{
 }
 body {
     font-family: 'Kalam', cursive;
-    background: rgb(22, 22, 22);
+    padding-top: 10px;
+    font-display: swap;
+}
+.hact {
+    color: green;
+    font-weight: bolder;
 }
 .main {
     padding: 10px;
     font-size: 25px;
     text-align: center;
 }
+.navr{
+    float: right; 
+    margin-right: 25px; 
+    font-size: 25px; 
+    text-decoration: none;
+}
+#more {
+    text-align: center;
+    font-size: 25px;
+    vertical-align: middle;
+    color: cadetblue;
+    border: none;
+}
+
 .card {
     position: relative;
-    background: rgb(22, 22, 22);
     border-radius: 7px;
     padding: 3px;
-    background: whitesmoke;
+    background: rgba(0, 0, 0, 0.5);
 }
 .card::after {
     content: "";
     display: block;
     clear: both;
+    max-height: 450px;
 }
 .card:hover {
-    background: white;
-    box-shadow: 3px 3px 4px dimgray;
+    background-color: rgb(16, 16, 16);
+    box-shadow: 3px dimgray;
 }
-img {
-    border-radius: 3px; 
-    height: 200px; 
-    width: 100%;  
+
+.imag {
+    width: 34px; 
+    height: 34px;
+    border: 3px solid darkslategray;
+    border-radius: 50%;
+    padding: 5px;
 }
 .header {
-    background: rgb(23, 39, 39);
     position: absolute;
     left: 0;
     top: 0;
     right: 0;
     width: 100%;
     margin-top: 0;
-    padding-left: 10px;
-    padding-top: 7px;
-    color: forestgreen;
+    padding: 10px;
+    color: blueviolet;
     font-family: 'Special Elite', cursive;
 }
 .footer {
     position: fixed;
-    background: rgb(22, 22, 22);
+    background-color: rgb(22, 22, 22);
     left: 0;
     right: 0;
     bottom: 0;
@@ -72,10 +92,7 @@ ul {
 li {
     font-size: 20px;
 }
-#imag {
-    border: 3px solid wheat;
-    border-radius: 50%;
-}
+
 .clearfix {
     overflow: auto;
 }
@@ -88,9 +105,10 @@ li {
 .chead {
     border-bottom: 2px solid lightgray;
     border-radius: 25px;
+    padding-left: 40%;
 }
 .tqhead a {
-    color: lightcoral;
+    color: tomato;
 }
 #f1 {
     float: right; 
@@ -102,12 +120,12 @@ li {
 .pagination {
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
-    margin-left: 610px;
+    margin-left: 45%;
     margin-bottom: 25px;
 }
 .pagination a {
     color: black;
-    background: white;
+    background-color: white;
     padding: 8px 16px;
     text-decoration: none;
     border-radius: 7px;
@@ -138,3 +156,4 @@ li {
         margin-left: 7px;
     }
 }
+

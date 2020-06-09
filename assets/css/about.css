@@ -1,17 +1,24 @@
 body {
     font-family: 'Kalam', cursive;
-    background: rgb(22, 22, 22);
+    background:url("../media/bg1.jpg");
 }
 .header {
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
+    right: 0;
     width: 100%;
-    height: 250px;
+    margin-top: 0;
     padding-left: 10px;
-    text-align: left;
+    padding-top: 7px;
     color: blueviolet;
     font-family: 'Special Elite', cursive;
+}
+.navr{
+    float: right; 
+    margin-right: 25px; 
+    font-size: 25px; 
+    text-decoration: none;
 }
 .footer {
     position: fixed;
@@ -36,15 +43,13 @@ a:hover {
 }
 .column {
     position: relative;
-    background: darkslategray;
-    border: 0.5px solid whitesmoke;
+    background: rgb(22, 22, 22);
     border-radius: 16px;
-    height: 700px;
-    width: 70%;
+    height: 600px;
+    width: 60%;
     margin: auto;
-    color: darkcyan;
-    padding-top: 70px;
     margin-top: 25px;
+    color: gold;
 }
 .column::after {
     content: "";
@@ -65,4 +70,13 @@ a,p {
     color: orange;
     font-size: 20px;
     vertical-align: middle;
+}
+img {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    padding: 7px;
+}
+u {
+    font-size: 25px;
+    text-decoration-style: dashed;
 }
