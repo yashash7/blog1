@@ -20,6 +20,10 @@ body {
     font-size: 25px; 
     text-decoration: none;
 }
+.hact {
+    color: green;
+    font-weight: bolder;
+}
 .footer {
     position: fixed;
     background: rgb(22, 22, 22);
