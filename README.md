@@ -1,4 +1,2 @@
 # blog1
-This is my blog's repository.
-I developed this blog only using HTML and CSS mainly, with a few scripting.
-I've used plain Javascript and haven't used any js frameworks.
+This is my blog, I developed this blog using HTML and CSS.
